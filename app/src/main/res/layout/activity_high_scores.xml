@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:foregroundTint="#0000BCD4"
+    tools:context=".HighScores">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            android:gravity="center"
+            android:text="HIGH SCORES!"
+            android:fontFamily="@font/butcherman"
+            android:textColor="#009688"
+            android:textSize="62sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/Rank"
+                android:layout_width="126dp"
+                android:layout_height="79dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="RANK"
+                android:fontFamily="@font/iceberg"
+                android:textColor="#BDB76B"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/Score"
+                android:layout_width="126dp"
+                android:layout_height="79dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="NAME"
+                android:fontFamily="@font/iceberg"
+                android:textColor="#BDB76B"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/Name"
+                android:layout_width="126dp"
+                android:layout_height="79dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="SCORE"
+                android:fontFamily="@font/iceberg"
+                android:textColor="#BDB76B"
+                android:textSize="28sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/firstPlace"
+                android:layout_width="126dp"
+                android:layout_height="79dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="1ST"
+                android:fontFamily="@font/iceberg"
+                android:textColor="#FFFFFF"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/firstInitials"
+                android:layout_width="126dp"
+                android:layout_height="79dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:fontFamily="@font/iceberg"
+                android:textColor="#FFFFFF"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/firstScore"
+                android:layout_width="126dp"
+                android:layout_height="79dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:fontFamily="@font/iceberg"
+                android:textColor="#FFFFFF"
+                android:textSize="28sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/secondPlace"
+                android:layout_width="126dp"
+                android:layout_height="79dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="2ND"
+                android:fontFamily="@font/iceberg"
+                android:textColor="#FF0000"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/secondInitials"
+                android:layout_width="126dp"
+                android:layout_height="79dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:fontFamily="@font/iceberg"
+                android:textColor="#FF0000"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/secondScore"
+                android:layout_width="126dp"
+                android:layout_height="79dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:fontFamily="@font/iceberg"
+                android:textColor="#FF0000"
+                android:textSize="28sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/thirdPlace"
+                android:layout_width="126dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="3RD"
+                android:fontFamily="@font/iceberg"
+                android:textColor="#FF6600"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/thirdInitials"
+                android:layout_width="126dp"
+                android:layout_height="79dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:fontFamily="@font/iceberg"
+                android:textColor="#FF6600"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/thirdScore"
+                android:layout_width="126dp"
+                android:layout_height="79dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:fontFamily="@font/iceberg"
+                android:textColor="#FF6600"
+                android:textSize="28sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/fourthPlace"
+                android:layout_width="126dp"
+                android:layout_height="79dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="4TH"
+                android:fontFamily="@font/iceberg"
+                android:textColor="#66FF66"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/fourthInitials"
+                android:layout_width="126dp"
+                android:layout_height="79dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:fontFamily="@font/iceberg"
+                android:textColor="#66FF66"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/fourthScore"
+                android:layout_width="126dp"
+                android:layout_height="79dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:fontFamily="@font/iceberg"
+                android:textColor="#66FF66"
+                android:textSize="28sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/fifthPlace"
+                android:layout_width="126dp"
+                android:layout_height="79dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="5TH"
+                android:fontFamily="@font/iceberg"
+                android:textColor="#66CCCC"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/fifthInitials"
+                android:layout_width="126dp"
+                android:layout_height="79dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:fontFamily="@font/iceberg"
+                android:textColor="#66CCCC"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/fifthScore"
+                android:layout_width="126dp"
+                android:layout_height="79dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:fontFamily="@font/iceberg"
+                android:textColor="#66CCCC"
+                android:textSize="28sp" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
